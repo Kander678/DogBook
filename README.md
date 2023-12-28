@@ -54,35 +54,6 @@ Dogbook is Facebook like social media for dog owners
   npm start
   ```
   (można też "node index.js" ale to unika użycia skryptów uruchomieniowych, które mają nodemona do auto reload)
-
-# Paczki:
-
-## dodawanie nowych paczek do porojektu:
-
-- do zależności produkcyjnych (dependencies):
-  ```
-  npm install <nazwa_paczki> --save
-  ```
-- do zależności developerskich (devDependencies):
-  ```
-  npm install <nazwa_paczki_dev> --save-dev
-  ```
-
-## usuwanie paczek z projeku:
-
-- z zależności produkcyjnych (dependencies):
-  ```
-  npm uninstall <nazwa_paczki> --save
-  ```
-- z zależności developerskich (devDependencies):
-  ```
-  npm uninstall <nazwa_paczki_dev> --save-dev
-  ```
-
-# Uruchamianie serwera:
-
-    - włączanie (używa zdefiniowanej komendy ze scripts 'start'):
-    ```
-    npm start
-    ```
-    - wyłączanie (po portsu CTRL+C w terminalu)
+  #Autoryzacja dla przykładowego użytkownika:
+  Email: pomelo@mail.com
+  Hasło: pomelo
